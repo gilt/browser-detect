@@ -1,0 +1,39 @@
+{
+  "name": "browser_detect",
+  "title": "Browser Detect",
+  "description": "CHANGEME",
+  "version": "0.1.0",
+  "homepage": "TODO",
+  "licenses": [{
+    "type": "Apache v2",
+    "url": "https://github.com/gilt/browser-detect/blob/master/LICENSE"
+  }],
+  "keywords": ["CHANGEME"],
+  "author": {
+    "name": "Kevan Davis",
+    "email": "kdavis@gilt.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gilt/browser-detect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gilt/browser-detect/issues"
+  },
+  "main": "dist/browser_detect.min.js",
+  "devDependencies": {
+    "grunt": "0.4.x",
+    "grunt-contrib-clean": "0.4.x",
+    "grunt-contrib-concat": "0.1.x",
+    "grunt-contrib-jasmine": "0.3.x",
+    "grunt-contrib-jshint": "0.2.x",
+    "grunt-contrib-uglify": "0.1.x",
+    "grunt-karma": "0.3.x",
+    "grunt-release": "0.2.x",
+    "grunt-replace": "0.4.x",
+    "groc": "https://github.com/gilt/groc/archive/v0.5.5.tar.gz"
+  },
+  "scripts": {
+    "test": "grunt test"
+  }
+}
