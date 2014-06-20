@@ -15,7 +15,10 @@ frameworks = ['jasmine'];
 files = [
   JASMINE,
   JASMINE_ADAPTER,
-  'lib/**/*.js',
+  'lib/version.js',
+  'lib/carmen.js',
+  'lib/baskerville.js',
+  'lib/browser_detect.js',
   'spec/**/*.spec.js'
 ];
 

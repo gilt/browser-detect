@@ -66,6 +66,9 @@ module.exports = function (grunt) {
       },
       build: {
         src: [
+          'lib/carmen.js',
+          'lib/version.js',
+          'lib/baskerville.js',
           'lib/browser_detect.js'
         ],
         dest: 'dist/<%= pkg.name %>.js'
@@ -135,7 +138,7 @@ module.exports = function (grunt) {
   });
 
   grunt.registerTask('default', ['karma:specs']);
-  grunt.registerTask('build', ['test', 'clean:build', 'doc', 'concat', 'replace', 'uglify']);
+  grunt.registerTask('build', ['test', 'clean:build', /*'doc',*/ 'concat', 'replace', 'uglify']);
   grunt.registerTask('test', ['jshint', 'karma:once']);
   grunt.registerTask('test_travis', ['jshint', 'karma:once_travis']);
 };
